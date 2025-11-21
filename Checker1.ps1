@@ -387,4 +387,4 @@ try {
     Write-Host "  Error: $($_.Exception.Message)" -ForegroundColor DarkRed
 }
 
-Write-Host "`nCheck Complete, hit up @praiselily if u run into any issues." -ForegroundColor Cyan
+Write-Host "`nCheck Complete, credits: @praiselily." -ForegroundColor Cyan
