@@ -31,12 +31,12 @@ if ($drives) {
 Write-Host "`nSERVICE STATUS" -ForegroundColor Cyan
 
 $services = @(
-    @{Name = "SysMain"; DisplayName = "SysMain"},
-    @{Name = "PcaSvc"; DisplayName = "Program Compatibility Assistant Service"},
-    @{Name = "DPS"; DisplayName = "Diagnostic Policy Service"},
-    @{Name = "EventLog"; DisplayName = "Windows Event Log"},
+    @{Name = "SysMain"; DisplayName = "(!) SysMain"},
+    @{Name = "PcaSvc"; DisplayName = "(!) Program Compatibility Assistant Service"},
+    @{Name = "DPS"; DisplayName = "(!) Diagnostic Policy Service"},
+    @{Name = "EventLog"; DisplayName = "(!) Windows Event Log"},
     @{Name = "Schedule"; DisplayName = "Task Scheduler"},
-    @{Name = "Bam"; DisplayName = "Background Activity Moderator"},
+    @{Name = "Bam"; DisplayName = "(!) Background Activity Moderator"},
     @{Name = "Dusmsvc"; DisplayName = "Data Usage"},
     @{Name = "Appinfo"; DisplayName = "Application Information"},
     @{Name = "CDPSvc"; DisplayName = "Connected Devices Platform Service"},
